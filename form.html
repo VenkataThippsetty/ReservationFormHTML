@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Form</title>
+</head>
+<body>
+    
+<h1>Travel reservation form</h1>
+<h3>* denotes mandatory</h3>
+<form id="registration_form" method="post">
+ <label >Full name* :</label><br>
+ <input type="text" name="full_name" placeholder="FirstName LastName" autofocus="autofocus" value=""><br>
+ <br>
+ <label > Email Address*:</label><br>
+<input type="text" name="Email_address" placeholder="abcde@gmail.com" autofocus="autofocus" value=""><br>
+<br> 
+<label>Select Tour Package*:</label><br>
+ <select name="package" id="package_trip">
+    <option value="Munnar">Munnar</option>
+    <option value="Kashmir">Kashmir</option>
+    <option value="Goa">Goa</option>
+    <option value="Sikkhim">Sikkhim</option>
+ </select><br>
+ <br>
+ <label >Arrival Date*:</label><br>
+ <input type="text" name="Date" placeholder="dd/mm/yy" autofocus="autofocus" value=""><br>
+ <br>
+ <label>No of Persons*:</label><br>
+ <input type="text" name="Number of people" placeholder="1" autofocus="autofocus" value=""><br>
+ <br>
+ <label>What you want to avail?* :</label><br>
+
+ Boarding <input type="checkbox" value="boarding"><br>
+ Food <input type="checkbox" value="Food"><br>
+ Sight-Seeing <input type="checkbox" value="SightSeeing"><br>
+ <br>
+ <label >Discount Coupon Code:</label><br>
+ <input type="text" name="discount" placeholder="Any Discount Code?" autofocus value=""><br>
+ <br>
+ <label for="">Terms and Conditions* :</label><br>
+ <input type="radio" value="Agree"> I agree
+ <input type="radio" value="Dont Agree"> I disagree
+</form>
+<br>
+<button>Complete reservation</button>
+
+</body>
+</html>
